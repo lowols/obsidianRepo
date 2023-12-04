@@ -6,6 +6,7 @@
       {
         "id": "e50a1fdd734e3d69",
         "type": "tabs",
+        "dimension": 65.82733812949641,
         "children": [
           {
             "id": "4a92f5bfbb8aedc5",
@@ -17,7 +18,26 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "fa16ed025114d534"
+          }
+        ]
+      },
+      {
+        "id": "f86c1e3a065a2681",
+        "type": "tabs",
+        "dimension": 34.172661870503596,
+        "children": [
+          {
+            "id": "7780df3c25b25f9c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "LG-Mybatis.md"
+              }
+            },
+            "group": "fa16ed025114d534"
           }
         ]
       }
@@ -148,5 +168,7 @@
     }
   },
   "active": "4a92f5bfbb8aedc5",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "LG-Mybatis.md"
+  ]
 }

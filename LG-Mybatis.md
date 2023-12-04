@@ -4617,3 +4617,10 @@ private static class EnhancedResultObjectProxyImpl implements MethodHandler {
 
 
 > 延迟加载原理 https://mp.weixin.qq.com/s/76x1flH6xTz4BRs3LJuCuQ
+
+# 第⼗⼀部分：设计模式
+虽然我们都知道有3类23种设计模式，但是⼤多停留在概念层⾯，Mybatis源码中使⽤了⼤量的设计模式，观察设计模式在其中的应⽤，能够更深⼊的理解设计模式Mybati s⾄少⽤到了以下的设计模式的使⽤：
+
+
+
+
