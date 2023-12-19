@@ -4621,6 +4621,20 @@ private static class EnhancedResultObjectProxyImpl implements MethodHandler {
 # 第⼗⼀部分：设计模式
 虽然我们都知道有3类23种设计模式，但是⼤多停留在概念层⾯，Mybatis源码中使⽤了⼤量的设计模式，观察设计模式在其中的应⽤，能够更深⼊的理解设计模式Mybati s⾄少⽤到了以下的设计模式的使⽤：
 
+| 模式         | mybatis体现                                                                                                                             |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Builder模式  | 例如SqlSessionFactoryBuilder、Environment;                                                                                              |
+| ⼯⼚⽅法模式 | 例如SqlSessionFactory、TransactionFactory、LogFactory                                                                                   |
+| 单例模式     | 例如 ErrorContext 和 LogFactory；                                                                                                       |
+| 代理模式     | Mybatis实现的核⼼，⽐如MapperProxy、ConnectionLogger，⽤的jdk的动态代理还有executor.loader包使⽤了 cglib或者javassist达到延迟加载的效果 |
+| 组合模式     | 例如SqlNode和各个⼦类ChooseSqlNode等                                                                                                    |
+| 模板⽅法模式 | 例如 BaseExecutor 和 SimpleExecutor，还有 BaseTypeHandler 和所有的⼦类例如IntegerTypeHandler；                                          |
+| 适配器模式   | 例如Log的Mybatis接⼝和它对jdbc、log4j等各种⽇志框架的适配实现；                                                                         |
+| 装饰者模式   | 例如Cache包中的cache.decorators⼦包中等各个装饰者的实现；                                                                               |
+| 迭代器模式   | 例如迭代器模式PropertyTokenizer；                                                                                                       |
 
+接下来对Builder构建者模式、⼯⼚模式、代理模式进⾏解读，先介绍模式⾃身的知识，然后解读在
+
+Mybatis中怎样应⽤了该模式。
 
 
