@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e50a1fdd734e3d69",
+        "id": "c2595da8afe1fd61",
         "type": "tabs",
         "children": [
           {
-            "id": "4a92f5bfbb8aedc5",
+            "id": "51fe7be96aa4e7f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LG-Mybatis.md",
+                "file": "后端/Paxos.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 291.5
   },
   "right": {
     "id": "8fa8c9a8fefbf2ef",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LG-Mybatis.md",
+                "file": "后端/Paxos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LG-Mybatis.md",
+                "file": "后端/Paxos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LG-Mybatis.md"
+                "file": "后端/Paxos.md"
               }
             }
           }
@@ -148,8 +148,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4a92f5bfbb8aedc5",
+  "active": "51fe7be96aa4e7f4",
   "lastOpenFiles": [
-    "LG-Mybatis.md"
+    "LG-Mybatis.md",
+    "后端/Paxos.md",
+    "后端"
   ]
 }
