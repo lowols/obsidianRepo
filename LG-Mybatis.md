@@ -678,7 +678,7 @@ MyBatis官⽹地址：http://www.mybatis.org/mybatis-3/
    ```
 
 2. 创建user数据表
-   ![](imgs/2023-11-08-11-20-23-image.png)
+   ![](mybatisImgs/2023-11-08-11-20-23-image.png)
 
 3. 编写User实体
    
